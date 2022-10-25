@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: python11
+    env: python
+    region: oregon # optional (defaults to oregon)
+    plan: standard # optional (defaults to starter)
+    branch: master # optional (defaults to master)
+    healthCheckPath: /
+    envVars:
+      - PYTHON_VERSION: 3.11.0
