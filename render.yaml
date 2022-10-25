@@ -3,7 +3,7 @@ services:
     name: python11
     env: python
     region: oregon # optional (defaults to oregon)
-    plan: standard # optional (defaults to starter)
+    plan: starter # optional (defaults to starter)
     branch: master # optional (defaults to master)
     healthCheckPath: /
     buildCommand: pip install -r requirements.txt
